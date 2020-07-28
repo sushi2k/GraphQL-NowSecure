@@ -37,7 +37,7 @@ with open('result.csv') as csv_file:
             print(url)
             
             file_extension = ".ipa" if row[8] == "ios" else ".apk"
-            wget.download(url, "downloads/"+str(row[7])+"_"+row[8]+"_"+row[9]+"_"+row[8]+file_extension)
+            wget.download(url, "downloads/"+str(row[7])+"_"+row[8]+"_"+row[9]+"_"+row[1]+file_extension)
 
             line_count += 1
     print(f'Processed {line_count} lines.')
