@@ -25,7 +25,7 @@ Afterwards the script `query_all_scans_convert_to_csv.py` can be executed and th
 ```bash
 $ python3 query_all_scans_convert_to_csv.py
      Assessment_reference   Assessment_createdAt         App_build_digest         ...           package_key       Platform       AnalysisConfigLevel
-0    123-4321-123-4321-123  2020-01--3T03:57:46.366275Z  12341234123412341234...  ...           com.bar.foo       ios            BASELINE
+0    123-4321-123-4321-123  2020-01-03T03:57:46.366275Z  12341234123412341234...  ...           com.bar.foo       ios            BASELINE
 1    123-4321-123-4321-321  2020-04-30T04:10:06.908146Z  12341234123412341234...  ...           com.foo.bar       ios            BASELINE
 ...
 
