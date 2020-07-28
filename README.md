@@ -5,6 +5,11 @@ This repo contains two scripts:
 - **query_all_scans_convert_to_csv.py** - This script will query GraphQL from NowSecure Auto to get all meta-data of all your uploaded applications, including all scans of each app. After the data was saved as `result.json` the JSON structure will be flattened and saved as csv file.
 - **downloader.py** - This script will parse the csv file and will download the mobile app that was uploaded for the scan. 
 
+## Documentation
+
+- <https://docs.nowsecure.com/api/auto/graphql>: GraphQL API Documentation
+- <https://lab-api.nowsecure.com/graphql>: Write your GraphQL query directly into your browser, or click on "Schema" on the right and search for all available details that can be retrieved via GraphQL.
+
 ## Usage
 
 First install the requirements:
