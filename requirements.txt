@@ -3,7 +3,7 @@ Cython==0.29.15
 keyring==21.1.0
 numpy==1.18.1
 wget==3.2
-lxml==4.5.0
+lxml==4.9.1
 pandas==1.0.1
 brotli==1.0.7
 ipaddr==2.2.0
